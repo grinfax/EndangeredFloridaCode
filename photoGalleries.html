@@ -12,14 +12,15 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
-  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
 
 
-  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
-	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
-	<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
 </head>
 
@@ -38,32 +39,80 @@
     </nav>
 
   </header>
-
+<main style="text-align: center;" class="main">
   <div class="container">
-    <a href="tiles_rimkus.html">
-    <img src="joe-rimkus/mulletrun92316.JPG" alt="Joe Rimkus Photo Gallery">
       <div class="storyheadline">
-        <h2>Joe Rimkus</h2></div></a>
+        <h2>Joe Rimkus</h2>
+        <a href="media/rimkus/1.jpg" data-lightbox="rimkus"><img src="media/rimkus/7.jpg"></a>
+        <a href="media/rimkus/2.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/3.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/4.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/5.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/6.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/7.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/8.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/9.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/10.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/11.jpg" data-lightbox="rimkus"></a>
+        <a href="media/rimkus/12.jpg" data-lightbox="rimkus"></a>
+      <div class="caption">
+        Joe Rimkus is a passionate professional photographer living and working in the South and Central Florida area. Joe worked for over 40-years as a photojournalist at the Miami Herald. These are images from his personal project documenting the Vero Beach area.
+        (<a href="media/rimkus/1.jpg" data-lightbox="rimkus">launch</a>)
+      </div>
+      
+      </div>
   </div>
-
+  <br>
+  <hr>
+<br>
   <div class="container">
-    <a href="tiles_pollack.html">
-  <img src="media/final-headshots/mackenzie-1.jpg" alt="Maxx Pollack photography">
       <div class="storyheadline">
-        <h2>Maxx Pollack</h2></div></a>
+        <h2>Ron Magill</h2></div>
+        <a href="media/magill/1.jpg" data-lightbox="magill"><img src="media/magill/7.jpg"></a>
+        <a href="media/magill/2.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/3.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/4.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/5.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/6.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/7.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/8.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/9.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/10.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/11.jpg" data-lightbox="magill"></a>
+        <a href="media/magill/12.jpg" data-lightbox="magill"></a>
+        <br>
+        <div class="caption">
+          Ron Magill is an American wildlife expert and photographer. Ron is the communications director of the Miami-Dade Zoological Park and Gardens, and these images are from his book “Miami Metrozoo: Celebrating Wildlife for 30 years.”
+          (<a href="media/magill/1.jpg" data-lightbox="magill">lanch</a>)
+        </div>
   </div>
+  <br>
+  <hr>
+<br>
+  <div class="container">
+    <div class="storyheadline">
+      <h2>Maxx Pollack</h2>
+      <a href="media/pollack/1.jpg" data-lightbox="pollack"><img src="media/pollack/10.jpg"></a>
+      <a href="media/pollack/2.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/3.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/4.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/5.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/6.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/7.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/8.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/9.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/10.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/11.jpg" data-lightbox="pollack"></a>
+      <a href="media/pollack/12.jpg" data-lightbox="pollack"></a>
+    <br>
+    <div class="caption">
+      Maxx Pollack is a recent graduate of the University of Miami’s School of Communication where he studied Creative Advertising and Journalism. Maxx lives, works and photographs though out Florida.
+      (<a href="media/pollack/1.jpg" data-lightbox="pollack">launch</a>)
+    </div>
+    </div>
+</div>
+</main>
 
-
-  <script type="text/javascript">
-
-    jQuery(document).ready(function(){
-
-      jQuery("#gallery").unitegallery({
-        tiles_type:"nested"
-      });
-
-    });
-
-  </script>
+  <script src="js/lightbox.js"></script>
 </body>
 </html>

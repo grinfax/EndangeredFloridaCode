@@ -31,6 +31,14 @@ body {
   line-height: 1.5em; /* Makes all text double spaced */
 }
 
+.caption, hr {
+  max-width: 850px;
+}
+
+.main a {
+  color: blue !important;
+}
+
 h1, h2, h3 {
   font-family: 'Roboto_slabbold', sans-serif;
 }
